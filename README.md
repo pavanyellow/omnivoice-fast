@@ -4,9 +4,9 @@ Companion code to *[Why Is Diffusion TTS Slow? A Roofline Analysis of
 OmniVoice Inference](#)*. Three OmniVoice serving configurations referenced
 in the paper.
 
-## Results (H100 80GB, single client, N=10)
+## Results (H100 80GB SXM · 10s clip · concurrency 1 · P90 over 20 generations)
 
-| Mode | TTFA p50 | vs. baseline |
+| Mode | TTFA P90 | vs. baseline |
 |---|---|---|
 | baseline (upstream `vllm-omni`) | **647 ms** | 1.0× |
 | full-clip optimized             | **383 ms** | 1.7× |
