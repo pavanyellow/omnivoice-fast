@@ -1,7 +1,7 @@
 # omnivoice-fast
 
 Companion code to *[Why Is Diffusion TTS Slow? A Roofline Analysis of
-OmniVoice Inference](#)*. Three OmniVoice serving configurations referenced
+OmniVoice Inference](https://pavankatta.com/diffusion-tts-roofline)*. Three OmniVoice serving configurations referenced
 in the paper.
 
 ## Results (H100 80GB SXM · 10s clip · concurrency 1 · P90 over 20 generations)
